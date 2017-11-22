@@ -2,7 +2,6 @@ var Client = require('node-rest-client').Client;
 
 var client = new Client();
 
-var promise = new Promise(function(resolve, reject) {
     // do a thing, possibly async, then…
   
     if (1) {
@@ -18,5 +17,4 @@ client.get("https://api.github.com/zen", function (data, response) {
     console.log(data);
     // raw response 
     // console.log(response);
-    promise.then(res => response.json(result => { result }));
 });

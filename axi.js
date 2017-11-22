@@ -11,8 +11,3 @@ axios.get('https://api.github.com/zen')
   console.log(response.data);
   console.log(response.status);
 });
-// Performing a POST request
-//  axios.post('/save', { firstName: 'Marlon', lastName: 'Bernardes' })
-//  .then(function(response){
-//    console.log('saved successfully')
-//  });  
